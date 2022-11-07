@@ -1,0 +1,366 @@
+.mv-sec {
+  margin-top: 77px;
+  padding: 100px 0 48px;
+  background-color: #F7F7F7;
+}
+
+.mv-title {
+  color: #2E2E22;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.pone,
+.hone,
+.htwo,
+.ptwo {
+  color: #2E2E22;
+  font-family: 'Roboto-regular', sans-serif;
+  font-size: 16px;
+
+}
+
+.pone {
+  line-height: 1.4;
+  margin: 37px 0 30px;
+}
+
+.hone {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 11px;
+}
+
+span {
+  color: #FF8800;
+}
+
+.htwo {
+  position: relative;
+  padding-left: 11px;
+}
+
+.hone::before {
+  position: absolute;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background-color: #354E57;
+  content: " ";
+  transform: translateY(3px);
+  border-radius: 50%;
+}
+
+.htwo::before {
+  position: absolute;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background-color: #354E57;
+  content: " ";
+  transform: translateY(3px);
+  border-radius: 50%;
+}
+
+.ptwo {
+  line-height: 1.4;
+  margin: 27px 0 10px;
+}
+
+.card-list {
+  margin: 39px 54px 0;
+}
+
+.top {
+  float: left;
+  width: 48%;
+}
+
+.card {
+
+  padding: 32px 10px 10px 39px;
+  background-color: #ffffff;
+}
+
+.list-item {
+  margin-bottom: 30px;
+}
+
+.list-item h2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.list-item a {
+  color: #354E57;
+  font-size: 16px;
+}
+
+.bottom {
+  float: right;
+  width: 48%;
+  padding: 31px 30px 63px 45px;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-weight: 400;
+}
+
+.bottom h3 {
+  margin-bottom: 31px;
+  font-size: 16px;
+}
+
+.bottom p {
+  line-height: 1.5;
+  margin-bottom: 27px;
+  font-size: 16px;
+
+}
+
+.corma {
+  margin-right: 3px;
+  color: #2E2E22;
+}
+
+.bottom a {
+  font-size: 16px;
+}
+
+@media screen and (min-width:768px) and (max-width:1180px) {
+  .mv-sec {
+    margin-top: 10.026vw;
+    padding: 13.021vw 0 6.442vw;
+  }
+
+  .mv-title {
+    font-size: 6.51vw;
+    font-weight: 700;
+
+  }
+
+  .pone,
+  .hone,
+  .htwo,
+  .ptwo {
+    font-size: 2.083vw;
+
+  }
+
+  .pone {
+    line-height: 1.4;
+    margin: 4.818vw 0 3.906vw;
+  }
+
+  .hone {
+    margin-bottom: 1.302vw;
+    padding-left: 1.432vw;
+  }
+
+  span {
+    margin-left: 0.521vw;
+  }
+
+  .htwo {
+
+    padding-left: 1.432vw;
+  }
+
+  .hone::before {
+    left: 0;
+    width: 0.651vw;
+    height: 0.651vw;
+    transform: translateY(0.391vw);
+    border-radius: 50%;
+  }
+
+  .htwo::before {
+    left: 0;
+    width: 0.651vw;
+    height: 0.651vw;
+    transform: translateY(0.391vw);
+  }
+
+  .ptwo {
+    line-height: 1.4;
+    margin: 3.516vw 0 1.302vw;
+  }
+
+  .card-list {
+    margin: 6.38vw 11.198vw 0;
+  }
+
+  .top {
+    float: none;
+    width: 100%;
+    margin-bottom: 5.859vw;
+  }
+
+  .card {
+    padding: 4.167vw 1.302vw 1.302vw 5.078vw;
+  }
+
+  .list-item {
+    margin-bottom: 3.906vw;
+  }
+
+  .list-item h2 {
+    margin-bottom: 1.302vw;
+    font-size: 2.083vw;
+  }
+
+  .list-item a {
+    font-size: 2.083vw;
+  }
+
+  .bottom {
+    float: none;
+    width: 100%;
+    padding: 4.036vw 3.906vw 8.203vw 6.12vw;
+  }
+
+  .bottom h3 {
+    margin-bottom: 3.516vw;
+    font-size: 2.083vw;
+  }
+
+  .bottom p {
+    line-height: 1.5;
+    margin-bottom: 3.516vw;
+    font-size: 2.083vw;
+
+  }
+
+  .corma {
+    margin-right: 0.391vw;
+    color: #2E2E22;
+  }
+
+  .bottom a {
+    font-size: 2.083vw;
+  }
+}
+
+@media screen and (max-width:767.9px) {
+  .container {
+    width: 100%;
+    padding: 0 3.125vw;
+  }
+
+  .mv-sec {
+    margin-top: 11.909vw;
+    padding: 5.656vw 0 10.45vw;
+  }
+
+  .mv-title {
+    font-size: 7.813vw;
+    font-weight: 700;
+
+  }
+
+  title {
+    font-size: 7.969vw;
+    font-weight: 700;
+
+  }
+
+  .pone,
+  .hone,
+  .htwo,
+  .ptwo {
+    font-size: 2.5vw;
+
+  }
+
+  .pone {
+    line-height: 1.6;
+    margin: 5.781vw 0 4.063vw;
+  }
+
+  .hone {
+    margin-bottom: 1.563vw;
+    padding-left: 1.719vw;
+  }
+
+  span {
+    margin-left: 0.625vw;
+  }
+
+  .htwo {
+
+    padding-left: 1.719vw;
+  }
+
+  .hone::before {
+    left: 0;
+    width: 0.781vw;
+    height: 0.781vw;
+    transform: translateY(0.469vw);
+    border-radius: 50%;
+  }
+
+  .htwo::before {
+    left: 0;
+    width: 0.781vw;
+    height: 0.781vw;
+    transform: translateY(0.469vw);
+  }
+
+  .ptwo {
+    line-height: 1.4;
+    margin: 4.219vw 0 1.563vw;
+  }
+
+  .card-list {
+    margin: 6.7% 7% 0;
+  }
+
+  .top {
+    float: none;
+    width: 100%;
+    margin-bottom: 8%;
+  }
+
+  .card {
+    padding: 5vw 1.563vw 1.563vw 6.094vw;
+  }
+
+  .list-item {
+    margin-bottom: 4.688vw;
+  }
+
+  .list-item h2 {
+    margin-bottom: 1.563vw;
+    font-size: 2.5vw;
+  }
+
+  .list-item a {
+    font-size: 2.5vw;
+  }
+
+  .bottom {
+    float: none;
+    width: 100%;
+    padding: 4.844vw 4.688vw 9.844vw 7.344vw;
+  }
+
+  .bottom h3 {
+    margin-bottom: 4.219vw;
+    font-size: 2.5vw;
+  }
+
+  .bottom p {
+    line-height: 1.5;
+    margin-bottom: 4.419vw;
+    font-size: 2.5vw;
+
+  }
+
+  .corma {
+    margin-right: 0.469vw;
+    color: #2E2E22;
+  }
+
+  .bottom a {
+    font-size: 2.5vw;
+  }
+}
